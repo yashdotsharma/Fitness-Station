@@ -1,0 +1,276 @@
+body{
+    background: #111;
+    color:rgb(255, 255, 255);
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: left;
+    color: #fe6e00;
+    display: inline;
+}
+.btn{
+    background-color: #fe6e00;
+}
+.btn:hover{
+    color: #fe6e00;
+    background-color: #111;
+}
+.icon img{
+    /* padding-left: 4%; */
+    padding-bottom: 5px;
+    height: 3rem;
+    display: inline;
+}
+/* -------------------------------------home Starts--------------------------------------- */
+.home{
+    padding: 8rem 0rem 0rem;
+}
+.home p{
+    padding-top: 1rem;
+}
+.home .intro{    
+    border-radius: 1rem;
+    padding: 7rem;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./Gallery/Home.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.home .intro .heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
+    justify-content: center;
+}
+.home .plan-1{
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: rgba(0,0,0,0.7);
+}
+.home .plan-2{
+    padding: 2rem;
+    margin: 1rem;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 1rem;
+}
+.home .bmi{
+    border-radius: 1rem;
+    padding: 1rem 6rem;
+    margin: 1rem;
+    background-color: rgba(0,0,0,0.7);
+    
+}
+.home .bmi img{
+    height: 3rem;
+}
+.bmi .submit input{
+    margin: 1px;
+    color: #ccc;
+    width: 100%;
+    background-color: #fe6e00;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+.submit input:hover{
+    background-color: #111;
+    color: #fe6e00;
+}
+
+/* -----------------------------Home ends------------------------------ */
+/*------------------------------ Nav bar Starts------------------------------------- */
+li , a , button{
+    font-weight: 700;
+    font-size: 18px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+header{
+    border-radius: 10px;
+    position: fixed;
+    width: 97%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem 2rem;
+}
+.logo{
+    height: 3rem;
+    cursor: pointer;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a:hover{
+    /* font-size: 20px; */
+    color: #999;
+}   
+button{
+    cursor: pointer;
+    padding: 9px 25px;
+    background-color: #fe6e00;
+    border: none;
+    border-radius: 50px;
+}
+/* ------------------------------ Nav bar ends------------------------------------- */
+.workout{
+    padding: 5rem 0rem 0rem;
+}
+.workout p{
+    padding-top: 1rem;
+}
+.workout .container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Gallery/workout.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.workout .full{    
+    text-align: left;
+    border-radius: 1rem;
+    padding: 4rem;
+    background-color: rgba(0,0,0,0.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.workout .fat{    
+    border-radius: 1rem;
+    padding: 4rem;
+    background-color: rgba(0,0,0,0.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.diet{
+    padding: 7rem 0rem 0rem;
+}
+.diet p{
+    padding-top: 1rem;
+}
+.diet .container{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Gallery/diet.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.diet .full{    
+   border-radius: 1rem;
+   padding: 4rem;
+   background-color: rgba(0,0,0,0.7);
+}
+.diet .fat{    
+    border-radius: 1rem;
+    padding: 4rem;
+    background-color: rgba(0,0,0,0.7);
+}
+.workout-plans{
+    padding: 2rem;
+}
+.workout-plans h2{
+    text-align: left;
+}
+.workout-plans .container{
+    border-radius: 10px;
+    margin-top: 7rem;
+    padding: 1rem 3rem;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Gallery/workout.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.workout-plans .row{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: rgba(0,0,0,0.9);
+}
+.diet-plans{
+    padding: 8rem 4rem 4rem 4rem;
+}
+.diet-plans .container{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Gallery/workout.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.diet-plans .col{
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: rgba(0,0,0,0.9);
+    
+}
+/* ---------------------Contact Starts-------------------------- */
+.contact{
+    padding: 7rem 15rem;
+}
+.contact .container{
+    justify-content: center;
+    text-align: left;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: black; 
+}
+
+.contact .row{
+    justify-content: center;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+label{
+    padding: 1rem 0rem;
+}
+input{
+    color: #ccc;
+    width: 100%;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+textarea{
+    background-color: black;
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.contact .submit input{
+    color: #ccc;
+    width: 100%;
+    background-color: #fe6e00;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+.submit input:hover{
+    background-color: #111;
+    color: #fe6e00;
+}
+/* ---------------------Contact Ends-------------------------- */
